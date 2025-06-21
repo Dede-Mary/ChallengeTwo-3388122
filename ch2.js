@@ -1,19 +1,4 @@
 
-/*new SearchSuggestionSystem(products)
-getSuggestions(searchWord)
-Input:
-products = ["mobile","mouse","moneypot","monitor","mousepad"]
-searchWord = "mouse"
-
-Output:
-[
-  ["mobile","moneypot","monitor"],
-  ["mobile","moneypot","monitor"],
-  ["mouse","mousepad"],
-  ["mouse","mousepad"],
-  ["mouse","mousepad"]
-]*/
-
 class SearchSuggestionSystem {
   constructor(products) {
     // Sort products for lexicographic order
